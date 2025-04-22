@@ -14,6 +14,7 @@ Kernel modules are essential for extending the functionality of the Linux kernel
 ## How it works
 
 This repository is automatically cloned by **MarkedRain Linux**'s Makefile to include necessary kernel modules during system build.
+The parameter `--depth 1` is added into the clone command to clone the most recent version of this repository.
 
 ## Target Kernel
 
